@@ -251,26 +251,25 @@ def get_message_type(msg: pyrogram.types.messages_and_media.message.Message):
 	except: pass
 
 
-USAGE = """**FOR PUBLIC CHATS**
+USAGE = """**GENEL SOHBETLER**
 
-__just send post/s link__
+__Gönderi Bağlantısını Göndermeniz Yeterli ;)__
 
-**FOR PRIVATE CHATS**
+**GİZLİ SOHBETLER**
 
-__first send invite link of the chat (unnecessary if the account of string session already member of the chat)
-then send post/s link__
+__Önce sohbetin davet bağlantısını gönder (string session hesabı zaten sohbetin üyesiyse gereksizdir)
+sonra gönderilerin bağlantısını gönder__
 
-**FOR BOT CHATS**
+**BOT SOHBETLERİ**
 
-__send link with '/b/', bot's username and message id, you might want to install some unofficial client to get the id like below__
-
+__Bot Linki Aşağıdakı örenk gibi'/b/'le Gönder, botun kullanıcı adı ve mesaj kimliği ile bağlantıyı gönderin, aşağıdaki gibi kimliği elde etmek için resmi olmayan bir istemci yüklemek isteyebilirsiniz__
 ```
 https://t.me/b/botusername/4321
 ```
 
-**MULTI POSTS**
+**ÇOKLU GÖNDERİ**
 
-__send public/private posts link as explained above with formate "from - to" to send multiple messages like below__
+__yukarıda açıklandığı gibi genel/özel gönderi bağlantılarını "kimden - kime" biçiminde göndererek aşağıdaki gibi birden fazla mesaj gönderebilirsiniz__
 
 ```
 https://t.me/xxxx/1001-1010
@@ -278,7 +277,7 @@ https://t.me/xxxx/1001-1010
 https://t.me/c/xxxx/101 - 120
 ```
 
-__note that space in between doesn't matter__
+__aradaki boşluğun önemli olmadığını unutmayın__
 """
 
 
